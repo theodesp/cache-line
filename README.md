@@ -10,7 +10,7 @@ Print the cache line size.
 ```js
 const cacheLineSize = require('cache-line');
 
-console.log("Cache Line is", cacheLineSize()); // 64 on my machine
+console.log("Cache Line is", cacheLineSize()); // 64 on my machine or 0 on failure
 ```
 
 ## Platforms
