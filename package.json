@@ -2,7 +2,7 @@
   "name": "cache-line",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": {},
+  "repository": "theodesp/cache-line",
   "author": {
     "name": "Theo Despoudis",
     "email": "thdespou@hotmail.com",
