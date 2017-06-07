@@ -1,0 +1,29 @@
+{
+  "name": "cache-line",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {},
+  "author": {
+    "name": "Theo Despoudis",
+    "email": "thdespou@hotmail.com",
+    "url": "theodespoudis.com"
+  },
+  "scripts": {
+    "postinstall": "node-gyp configure && node-gyp build",
+    "clean": "rimraf build/"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "gypfile": true,
+  "license": "MIT",
+  "devDependencies": {
+    "node-gyp": "^3.6.2",
+    "rimraf": "^2.6.1"
+  },
+  "keywords": [
+    "cache",
+    "node-gyp",
+    "node"
+  ]
+}
