@@ -13,13 +13,13 @@
     "clean": "rimraf build/"
   },
   "engines": {
-    "node": ">=4"
+    "node": ">=8"
   },
   "gypfile": true,
   "license": "MIT",
   "devDependencies": {
-    "node-gyp": "^3.6.2",
-    "rimraf": "^2.6.1"
+    "node-gyp": "^4.0.0",
+    "rimraf": "^2.6.3"
   },
   "keywords": [
     "cache",
